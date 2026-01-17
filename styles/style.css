@@ -1,6 +1,30 @@
 .txt-clr{
     color: rgba(98, 115, 130, 1);
 }
+.primary-button{
+    padding: 10px 20px;
+    background-color:rgba(70, 145, 101, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    /* height: 100vh;           Parent div এর উচ্চতা (Optional) */
+}
+.primary-button img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -23,22 +47,12 @@
     /* color: black; */
     /* font-weight: bold; */
 }
-.primary-button{
-    padding: 10px 20px;
-    background-color:rgba(70, 145, 101, 1);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 .access-div{
     display:flex ;
     justify-content: center;
 }
 
-.button{
-    
-}
 .banner{
     background-image: url(..//assets/hero-bg.png);
 }
@@ -57,6 +71,20 @@
     border-radius: 1000px;
     cursor: pointer;
     margin-bottom: 20px;
+}
+.hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+.button{
+
+    background-color:linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* color:rgba(70, 145, 101, 1); */
+    border: 1px solid rgb(218, 225, 221);
+    gap: 20px;
+    
 }
 .notes{
     width: 1360px;
@@ -113,4 +141,11 @@
     height: 16px;
 
 }
-
+/* access section */
+.access {
+    width: 1360px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgba(247, 246, 242, 1);
+    padding: 60px 0;
+}
