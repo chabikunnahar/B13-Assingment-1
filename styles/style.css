@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 80%;
+    margin: 0 auto;
+
+   
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    /* color: black; */
+    /* font-weight: bold; */
+}
+.primary-button{
+    padding: 10px 20px;
+    background-color:rgba(70, 145, 101, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.access-div{
+    display:flex ;
+    justify-content: center;
+}
+
+.button{
+    
+}
+.banner{
+    background-image: url(..//assets/hero-bg.png);
+}
+.intro{
+    width: 770px;
+    margin:0 auto;
+    padding: 180px 120px;
+    text-align: center;
+    
+}
+.access{
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, 1);
+    color:rgba(70, 145, 101, 1);
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.notes{
+    width: 1360px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-around;
+    gap: 24px;
+    margin-top: 50px;
+
+}
+.card-1, .card-2, .card-3, .card-4{
+    text-align: center;
+    /* width: 370px; */
+    padding: 50px 20px 20px 20px;
+    /* border: 1px solid rgba(200, 200, 200, 0.5); */
+    box-shadow:0 0 8px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card-1 img, .card-2 img, .card-3 img, .card-4 img{
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 20px;
+    
+
+
+    
+}
