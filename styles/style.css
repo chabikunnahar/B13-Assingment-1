@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.para-clr{
+    color: rgba(98, 115, 130, 1);
+}
 .txt-clr{
     color: rgba(98, 115, 130, 1);
 }
@@ -44,7 +53,7 @@
 }
 .nav-links li a{
     text-decoration: none;
-    /* color: black; */
+    color: black;
     /* font-weight: bold; */
 }
 
@@ -55,6 +64,15 @@
 
 .banner{
     background-image: url(..//assets/hero-bg.png);
+}
+.hero-header{
+    margin-top: 0px; 
+    margin-bottom: 10px;   
+    font-size: 60px;
+    font-weight:800;
+}
+.hero-style{
+    color: rgba(70, 145, 101, 1);
 }
 .intro{
     width: 770px;
@@ -80,7 +98,8 @@
 }
 .button{
 
-    background-color:linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    padding:10px 20px;
+    border-radius: 5px;
     /* color:rgba(70, 145, 101, 1); */
     border: 1px solid rgb(218, 225, 221);
     gap: 20px;
@@ -91,6 +110,10 @@
     margin: 100px auto;
     text-align: center;
 }
+.notes-header{
+    font-size: 48px;
+    font-weight: 700;
+}
 
 .cards{
     display: flex;
@@ -98,6 +121,12 @@
     gap: 24px;
     margin-top: 50px;
 
+}
+.cards div h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
 }
 .card-1, .card-2, .card-3, .card-4{
     text-align: center;
@@ -129,7 +158,10 @@
     color: rgba(70, 145, 101, 1);
 }
 .design-content > h1{
-    width: 50%;
+    /* width: 50%; */
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
     
 }
 .design-content > p{
@@ -145,7 +177,55 @@
 .access {
     width: 1360px;
     margin: 100px auto;
+    gap : 30px;
     text-align: center;
     background-color: rgba(247, 246, 242, 1);
     padding: 60px 0;
+}
+.access-header{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+    
+}
+
+/* footer styles */
+footer {
+    background-color: rgba(0, 25, 49, 1);
+    padding: 40px 0;
+    color: white;
+    height: 340px;
+}
+
+.footer-content,hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1360px;
+    margin: 80px auto;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+.social-icons a{
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(150, 150, 150, 1);
 }
