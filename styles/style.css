@@ -64,6 +64,8 @@
 
 .banner{
     background-image: url(..//assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 .hero-header{
     margin-top: 0px; 
@@ -89,6 +91,10 @@
     border-radius: 1000px;
     cursor: pointer;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .hero-btn{
     display: flex;
@@ -105,9 +111,11 @@
     gap: 20px;
     
 }
-.notes{
+main{
     width: 1360px;
     margin: 100px auto;
+}
+.notes{
     text-align: center;
 }
 .notes-header{
@@ -144,8 +152,9 @@
 
     /* desing section */
     .design{
-    width: 1360px;
-    margin: 100px auto;
+    /* width: 1360px;
+    margin: 100px auto; */
+    margin-top: 100px;
     }
     .design-info{
     display: flex;
@@ -175,8 +184,9 @@
 }
 /* access section */
 .access {
-    width: 1360px;
-    margin: 100px auto;
+    /* width: 1360px;
+    margin: 100px auto; */
+    margin-top: 100px;
     gap : 30px;
     text-align: center;
     background-color: rgba(247, 246, 242, 1);
@@ -198,11 +208,12 @@ footer {
 }
 
 .footer-content,hr {
+    width: 80%;
+    margin: 80px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1360px;
-    margin: 80px auto;
+    
 }
 
 .footer-logo img {
